@@ -1,0 +1,23 @@
+[{
+	"name": "Alpaca Ice Tea",
+	"detail": "Amazing Ice Tea",
+	"price": "1.99",
+	"info": "Contains Tea",
+	"image": "Image path here"
+},{
+	"name": "Alpaca Ice Coffee",
+	"detail": "Sexy Alpaca Ice Tea",
+	"price": "1.99",
+	"info": "Contains Milk",
+	"image": "Image path here"
+},{
+	"name": "Alpaca Energy",
+	"detail": "Get your Alpaca dick energy",
+	"price": "1.49",
+	"image": "Image path here"
+},{
+	"name": "Alpaca Nutrition",
+	"detail": "Low on nutritions?",
+	"price": "0.99",
+	"image": "Image path here"
+}]
