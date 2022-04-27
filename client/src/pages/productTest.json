@@ -1,25 +1,39 @@
+
 [
     {
+        "id":1,
+        "caption": "Icon 1", 
+        "icon": "..images/coffeeCup.png",
         "productID": 65242,
         "prodName": "Iced Mocha",
-        "prodDescription": "a chocolatey iced mocha, perfect for warm days",
+        "prodDescription": "A chocolatey iced mocha, perfect for warm days",
         "price": 2.34
     },
-    {   "productID": 85663,
+    {   
+        "id":1,
+        "caption": "Icon 1", 
+        "icon": "..images/coffeeCup.png",
+        "productID": 85663,
         "prodName": "Cappucino",
-        "prodDescription": "standard capuccino",
+        "prodDescription": "Standard capuccino",
         "price": 2.45
     },
     {
+        "id":1,
+        "caption": "Icon 1", 
+        "icon": "..images/coffeeCup.png",
         "productID": 68235,
         "prodName": "Peach Iced Tea",
-        "prodDescription": "refreshing peach flavoured iced tea",
+        "prodDescription": "Refreshing peach flavoured iced tea",
         "price": 2.50
     },
     {
+        "id":1,
+        "caption": "Icon 1", 
+        "icon": "..images/coffeeCup.png",
         "productID": 38265,
         "prodName": "Latte",
-        "prodDescription": "standard latte",
+        "prodDescription": "Standard latte",
         "price": 2.00
     }
 ]
