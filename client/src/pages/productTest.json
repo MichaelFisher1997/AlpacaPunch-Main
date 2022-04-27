@@ -1,0 +1,25 @@
+[
+    {
+        "productID": 65242,
+        "prodName": "Iced Mocha",
+        "prodDescription": "a chocolatey iced mocha, perfect for warm days",
+        "price": 2.34
+    },
+    {   "productID": 85663,
+        "prodName": "Cappucino",
+        "prodDescription": "standard capuccino",
+        "price": 2.45
+    },
+    {
+        "productID": 68235,
+        "prodName": "Peach Iced Tea",
+        "prodDescription": "refreshing peach flavoured iced tea",
+        "price": 2.50
+    },
+    {
+        "productID": 38265,
+        "prodName": "Latte",
+        "prodDescription": "standard latte",
+        "price": 2.00
+    }
+]

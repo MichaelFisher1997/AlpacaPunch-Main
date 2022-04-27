@@ -1,4 +1,5 @@
 import React from 'react';
+import getProducts from './product_Interface';
 
 const Cart = () => {return (
   <div
@@ -9,7 +10,8 @@ const Cart = () => {return (
       height: '100vh'
     }}
   >
-    <p>cart</p>
+    <h1></h1>
+      {getProducts()}
     </div>
 
 )}

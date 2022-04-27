@@ -10,7 +10,7 @@ import Home from './pages/home'; //not used atm
 import About from './pages/about';
 import Contact from './pages/contact';
 import Shipping from './pages/shipping';
-import Cart from './pages/shoppingcart.jsx';
+import Products from './pages/Products.js';
 
 
 
@@ -22,7 +22,7 @@ const App = () => (
       <Route path='/about' element={<About />} />
       <Route path='/contact' element={<Contact />} />
       <Route path='/shipping' element={<Shipping/>} />
-      <Route path='/Cart' element={<Cart/>} />
+      <Route path='/Products' element={<Products/>} />
       {/*<Route path='/sign-in' element={ } />*/}
       <Route path='/' exact element={<Home />} />
     </Routes>

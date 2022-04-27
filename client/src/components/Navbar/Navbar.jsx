@@ -24,7 +24,7 @@ const Navbar = () => (
       <button className="aboutButton"><Link to="/about" style={{ textDecoration: 'none' }}>About</Link></button>
       <button className="aboutButton"><Link to="/shipping" style={{ textDecoration: 'none' }}>Shipping</Link></button>
       <button className="aboutButton"><Link to="/contact" style={{ textDecoration: 'none' }}>Contact</Link></button>
-      <button className="aboutButton"><Link to="/shoppingcart" style={{ textDecoration: 'none' }}>Cart</Link></button>
+      <button className="aboutButton"><Link to="/Products" style={{ textDecoration: 'none' }}>Products</Link></button>
       </div>
       <div class="nav-right">
         <div class="nav-wallet" >
