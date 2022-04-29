@@ -1,0 +1,69 @@
+.Product {
+    width: 90%;
+    align-content: center;
+    /*REMOVED*/
+    border: 0px solid yellow;
+    padding: 50px;
+    margin: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+    color: #F7DC5F;
+    
+}
+
+
+
+.product_card {
+    border-radius: 25px;
+    border: 2px solid black;
+    
+    padding: 15px;
+    margin: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(black_wood.jpeg);
+    background-size: 600px 600px;
+    background-repeat: no-repeat;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+}
+
+.product_card > .product_image {
+    display: block;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100;
+    width: 100;
+}
+
+.product_card > .button_add {
+    align-items: center;
+    border-radius: 5px;
+    float: auto;
+    width: 75px;
+    border: 5px;
+    background-color: #8c7848;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.4s;
+    cursor: pointer;
+    
+}
+
+.product_card > .button_add:hover {
+    background-color: #F7DC5F;
+}
+.product_card > .button:active {
+    background-color: #F7DC5F;
+    transform: translateY(4px);
+  }
+
+body {
+    background-color:#F7DC5F;
+}
+ 
+
+

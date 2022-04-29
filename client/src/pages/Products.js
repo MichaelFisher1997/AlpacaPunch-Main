@@ -1,8 +1,9 @@
 import React from 'react';
 import getProducts from './product_Interface';
+import './pageCSS/product.css';
 
 const Cart = () => {return (
-  <div
+  <div className='Product'
     style={{
       display: 'flex',
       justifyContent: 'left',
