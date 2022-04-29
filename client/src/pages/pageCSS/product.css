@@ -61,9 +61,13 @@
     transform: translateY(4px);
   }
 
+
+  /* #8c7848, #F7DC5F, #534538  */
 body {
-    background-color:#F7DC5F;
-}
+    background-color: #8c7848; /* For browsers that do not support gradients */
+    background-image: linear-gradient(0deg, #F7DC5F,#8c7848, #534538);
+  }
+
  
 
 
