@@ -63,13 +63,12 @@
   position: relative;
   margin: 1em;
   padding: 0.67em;
-  border: 2px solid #FFF;
+
   overflow: hidden;
   text-decoration: none;
   font-size: 2em;
   outline: none;
   color: #FFF;
-  
   font-family: 'raleway', sans-serif;
 }
 
