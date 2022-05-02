@@ -1,4 +1,5 @@
 React app lives in client folder
+Only has 2 dependencies, router dom + sql
 
 To start:
 cd client
