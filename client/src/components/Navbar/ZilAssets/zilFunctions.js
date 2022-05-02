@@ -1,5 +1,3 @@
-import { React, useState } from "react";
-
 //zil1eff6xw0czq44wkdf70zru7l3ftp53tp77qt32k
 
 //grabs blockchain
@@ -18,26 +16,6 @@ import { React, useState } from "react";
       
      })
   }
-
-  
-
-  //current account address
-
-  const checkConnection = () => {
-    const isConnect = window.zilPay.wallet.isConnect;
-    
-  if (isConnect) {
-    
-  } else {
-    console.log("Not connected!!")
-  }
-
-  }
-
-
-
-  
-
 
   //grabs balance
   /*const balance = window.zilPay.blockchain.getBalance(publicKey).then(function(resp){

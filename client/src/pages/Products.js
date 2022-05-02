@@ -11,8 +11,8 @@ const Cart = () => {return (
       height: '100vh'
     }}
   >
-    <h1></h1>
-      {getProducts()}
+    <p>{getProducts()}</p>
+      
     </div>
 
 )}

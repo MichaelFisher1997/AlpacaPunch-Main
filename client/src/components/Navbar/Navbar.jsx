@@ -1,10 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-import Zil from './zil-pay-logo.png';
 
-import { Connect, blockchain } from './ZilAssets/zilFunctions.js';
-import walletAddr from './ZilAssets/zilWalletWidget.jsx';
+import { Connect} from './ZilAssets/zilFunctions.js';
+//import walletAddr from './ZilAssets/zilWalletWidget.jsx';
 
 //To make a cart see the following
 //https://upmostly.com/tutorials/how-to-refresh-a-page-or-component-in-react

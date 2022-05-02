@@ -20,7 +20,7 @@ export default function getProducts()
                             margin: "15px"
                         }}>
 
-                            <img className='product_image' src={productTest.icon} width="100" height="100"/>
+                            <img className='product_image' src={productTest.icon} width="100" height="100" alt='prod_image'/>
                             <br/>
                             
                             <p><strong>{productTest.prodName}</strong></p>

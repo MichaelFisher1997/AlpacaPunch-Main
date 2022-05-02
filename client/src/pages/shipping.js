@@ -13,8 +13,8 @@ const Shipping = () => {
         height: '100vh'
       }}
     >
-      <h1></h1>
-      {getOrders()}
+      <p>{getOrders()}</p>
+      
     </div>
   );
 };
