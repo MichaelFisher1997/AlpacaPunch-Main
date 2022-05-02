@@ -1,8 +1,8 @@
-const mariadb = require('mariadb');
+var mariadb = require('mariadb');
 //forces react to require mariadb connection
  
 // Create a connection pool
-const pool = 
+var pool = 
   mariadb.createPool({
     host: '139.162.192.227',
     port: 3306,
@@ -11,7 +11,11 @@ const pool =
     database: 'AlpacaData'
   });
  
+  pool.connect(function(err) {
+    if (err) throw err;
+    console.log("Connected!");
+  });
 // Expose a method to establish connection with MariaDB SkySQL
-module.exports = Object.freeze({
+/*module.exports = Object.freeze({
   pool: pool
-})
+})*/
