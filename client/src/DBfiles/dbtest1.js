@@ -61,6 +61,8 @@ const SSHConnection = new Promise((resolve, reject) => {
 });
 }).connect(tunnelConfig);
 });
-export connection;
+
+
+//export connection;
 
 
