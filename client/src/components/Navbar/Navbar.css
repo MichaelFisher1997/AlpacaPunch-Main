@@ -32,11 +32,11 @@
 
 .nav-links > button {
   position: relative;
-  background-color: #04AA6D;
+  background-color: #6d5a40;
   border: none;
   font-size: 28px;
   color: #FFFFFF;
-  padding: 20px;
+  padding: 10px;
   width: 200px;
   text-align: center;
   -webkit-transition-duration: 0.4s; /* Safari */
@@ -46,10 +46,10 @@
   cursor: pointer;
 
 }
-.nav-links > button:hover {background-color: #3e8e41}
+.nav-links > button:hover {background-color: #3f3c39}
 
 .nav-links > button:active {
-  background-color: #3e8e41;
+  background-color: #f0f0f0;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
@@ -58,7 +58,7 @@
 
 
 .connect-wallet-btn {
-  background-image: linear-gradient(to bottom right, blue, red);
+  background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(37, 37, 37));
   display: inline-block;
   position: relative;
   margin: 1em;

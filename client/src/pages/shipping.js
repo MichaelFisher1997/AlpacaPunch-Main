@@ -1,5 +1,5 @@
 import React from 'react';
-import getOrders from '../DBfiles/dbOperations';
+import orders from "../DBfiles/jsonFiles/Order_Line.json";
   
 const Shipping = () => {
   return (
@@ -11,9 +11,16 @@ const Shipping = () => {
         justifyContent: 'Left',
         alignItems: 'Left',
         height: '100vh'
-      }}
-    >
-      <p>{getOrders()}</p>
+      }}>
+      {
+        orders.find(order => order.transacID === "3258", function(order)  {
+          return (
+            <p>wee</p>
+          )
+        })
+      })
+      
+      {/* <p>{getOrders()}</p> */}
       
     </div>
   );

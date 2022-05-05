@@ -1,14 +1,11 @@
 import React , { useState } from 'react';
 import './pageCSS/product.css';
-import productTest from "./productTest.json";
+// import productTest from "./productTest.json";
+import products from "../DBfiles/jsonFiles/Products.json";
 //import {cart, products} from '../components/cart/Cart'
 
 
 //If we can remove the CSS then do! 
-
-
-
-
 
 export default function GetProducts()
 {
@@ -55,9 +52,9 @@ export default function GetProducts()
     return (
         <div style={{ display: "flex", flexDirection: "row", alignSelf: "flex-start" }}>
             {
-                productTest.map(productTest => {
+                products.map(products => {
                     return (
-                        <>
+                        <div>
 
                         
                         <div className='product_card' style={{
@@ -65,18 +62,19 @@ export default function GetProducts()
                             margin: "15px"
                         }}>
 
-                            <img className='product_image' src={productTest.icon} width="100" height="100" alt='prod_image'/>
+                            <img className='product_image' src={products.icon} width="100" height="100" alt='prod_image'/>
                             <br/>
                             
-                            <p><strong>{productTest.prodName}</strong></p>
-                            <p>{productTest.prodDescription}</p>
-                            <p>Price: {productTest.price}</p>
-                            <button value={[productTest.prodName,productTest.price]} value2={productTest.price} className='button_add' key={productTest.productID}  onClick={addItemToCart}>Add</button >
+                            <p><strong>{products.prodName}</strong></p>
+                            <p>{products.prodDescription}</p>
+                            <p>Price: {products.price}</p>
+                            <button value={[products.prodName,products.price]} value2={products.price} className='button_add' key={products.productID}  onClick={addItemToCart}>Add</button >
                             <p></p>
+                            <button value={products.price}>But now</button>
                         </div>
                         
 
-                        </>
+                        </div>
                     )
                 })
                 
