@@ -1,4 +1,6 @@
 import React from 'react';
+import {cart, products} from '../components/cart/Cart'
+import Cart from '../components/cart/cart2';
   
 const Contact = () => {
   return (
@@ -10,7 +12,8 @@ const Contact = () => {
         height: '100vh'
       }}
     >
-      <h1>Contact us!</h1>
+      <h1>Cart</h1>
+      <p>{Cart()}</p>
     </div>
   );
 };

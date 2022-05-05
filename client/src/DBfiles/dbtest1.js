@@ -63,6 +63,6 @@ const SSHConnection = new Promise((resolve, reject) => {
 });
 
 
-//export connection;
+export default SSHConnection;
 
 
