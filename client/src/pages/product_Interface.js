@@ -66,15 +66,16 @@ export default function GetProducts()
                             margin: "15px"
                         }}>
 
-                            <img className='product_image' src={products.icon} width="100" height="100" alt='prod_image'/>
+                            <img className='product_image' src={products.Product.source} width="100" height="100" alt='prod_image'/>
                             <br/>
                             
-                            <p><strong>{products.prodName}</strong></p>
-                            <p>{products.prodDescription}</p>
-                            <p>Price: {products.price}</p>
-                            <button value={[products.prodName,products.price]} value2={products.price} className='button_add' key={products.productID}  onClick={addItemToCart}>Add</button >
+                            <p><strong>{products.Product.prodName}</strong></p>
+                            <p>{products.Product.prodDescription}</p>
+                            <p>Price: {products.Product.price}</p>
+                            <button value={[products.Product.prodName,products.Product.price]} value2={products.Product.price} className='button_add' key={products.Product.productID}  onClick={addItemToCart}>Add</button >
                             <p></p>
-                            <button value={products.price} >Buy now</button>
+                            <button value={products.Product.price} onClick={testBlockchain} >Buy now</button>
+                            
                         </div>
                         
 

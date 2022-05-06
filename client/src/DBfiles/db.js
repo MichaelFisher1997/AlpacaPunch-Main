@@ -140,11 +140,30 @@ function getCustomers()    {
 
 //enables file writing from node
 const fs = require('fs');
+const images = require('./jsonFiles/images.json');
 
 //Writes all information needed to json files within the dbFiles directory
 (async function() {
     let orders = await getOrders();
     let products = await getProducts();
+    //assign an image here to the products to save to JSON
+    const productsJSON = [];
+
+    for(let i=0; i < products.length; i++)  {
+        const child = {};
+
+        child.Product = {
+            SKU: products[i].SKU,
+            prodName: products[i].prodName,
+            prodDescription: products[i].prodDescription,
+            price: products[i].price,
+            discountPercentage: products[i].discountPercentage,
+            manufID: products[i].manufID,
+            source: images[i].source
+        }
+        productsJSON.push(child);
+    }
+
     let order_lines = await getOrderLines();
     let customers = await getCustomers();
             
@@ -152,7 +171,7 @@ const fs = require('fs');
         if(err) throw(err);
         console.log("File created");
     })
-    fs.writeFile('./jsonFiles/Products.json', JSON.stringify(products), function(err) {
+    fs.writeFile('./jsonFiles/Products.json', JSON.stringify(productsJSON), function(err) {
         if(err) throw(err);
         console.log("File created");
     })

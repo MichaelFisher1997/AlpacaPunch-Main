@@ -24,9 +24,9 @@
         "image": "imagesAbout/michael.png"
     },
     {
-        "name":" ",
-        "role": "",
-        "discription": "",
+        "name":"Zach McGee",
+        "role": "roadmap & testing",
+        "description": "responsible for collecting the feedback of the testing and relaying the information back to the team",
         "image": "imagesAbout/zach.png"
     }
 ]
