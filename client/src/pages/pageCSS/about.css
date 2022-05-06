@@ -1,0 +1,36 @@
+body{
+    background-image: url("../images/rance.png");
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.about_card_text{
+    background-color: white;
+    background: rgb(0, 0, 0, 0.6);
+    border: 5px solid;
+    border-image: 
+    linear-gradient(
+        #ff512f,
+        #dd2476,
+        #1c64ff
+    ) 1;
+    animation: rotate
+    2.5s
+    ease-in
+    infinite;
+    color: white;
+    font-family: "Copperplate";
+    font-style: italic;
+    font-size: 25px;
+
+
+}
+@keyframes rotate {
+    50%{
+        border-image:
+        lin ;
+    }
+}

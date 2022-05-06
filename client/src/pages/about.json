@@ -1,27 +1,32 @@
 [
     {
-        "name":" ",
-        "role": "",
-        "discription": ""
+        "name":"Abbie L",
+        "role": "Data base/Backend",
+        "discription": "To code and manage the server side of the project as well as the functionality of the website",
+        "image": "imagesAbout/Abbie.png"
+}   ,
+    {
+        "name":" Nicole Fleming",
+        "role": "Design and presentation development ",
+        "discription": "An artsy person that adores cats and overwatch",
+        "image": "imagesAbout/Nicole.png"
+    },
+    {
+        "name":"Mujtaba Sajad",
+        "role":"Website & feature implementation ",
+        "discription":"Created the website template, barcode scanner, reccomendation algorithm, ",
+        "image": "imagesAbout/Muj.png"
+    },
+    {
+        "name":"Micahel F",
+        "role": "Front End/hosting & network",
+        "discription": "I have no idea how I got this far....",
+        "image": "imagesAbout/michael.png"
     },
     {
         "name":" ",
         "role": "",
-        "discription": ""
-    },
-    {
-        "name":" ",
-        "role": "",
-        "discription": ""
-    },
-    {
-        "name":" ",
-        "role": "",
-        "discription": ""
-    },
-    {
-        "name":" ",
-        "role": "",
-        "discription": ""
+        "discription": "",
+        "image": "imagesAbout/zach.png"
     }
 ]

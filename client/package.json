@@ -3,26 +3,48 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "@babel/preset-react": "^7.16.7",
     "@magic-ext/zilliqa": "^3.1.1",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
     "@testing-library/user-event": "^13.5.0",
+    "@zilliqa-js/account": "file:zilliqa-js/blockchain@zilliqa-js/contract@zilliqa-js/core@zilliqa-js/crypto@zilliqa-js/subscriptions@zilliqa-js/utiltslib",
+    "@zilliqa-js/crypto": "^3.3.4",
     "@zilliqa-js/zilliqa": "^3.3.4",
+    "bn.js": "^5.2.0",
+    "buffer": "^6.0.3",
+    "crypto": "^1.0.1",
+    "crypto-browserify": "^3.12.0",
+    "https-browserify": "^1.0.0",
     "mariadb": "^3.0.0",
     "mysql": "^2.18.1",
     "mysql2": "^2.3.3",
+    "node-polyfill-webpack-plugin": "^1.1.4",
+    "os-browserify": "^0.3.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-scripts": "5.0.1",
+    "rewire": "^6.0.0",
     "ssh2": "^1.10.0",
+    "stream": "npm:stream-browserify",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "tslib": "^2.4.0",
+    "url": "^0.11.0",
     "usetheform": "^3.4.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "watch": "webpack-dev-server --progress"
   },
   "eslintConfig": {
     "extends": [
@@ -43,6 +65,12 @@
     ]
   },
   "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.5",
+    "babel-preset-es2015": "^6.24.1",
     "react-router-dom": "^6.3.0"
+  },
+  "browser": {
+    "crypto": false
   }
 }

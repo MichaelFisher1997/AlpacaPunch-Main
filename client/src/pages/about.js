@@ -1,16 +1,17 @@
 import React from 'react';
+import getAbout from './about_interface';
   
 const About = () => {
   return (
     <div
       style={{
         display: 'flex',
-        justifyContent: 'Right',
-        alignItems: 'Right',
+        justifyContent: 'Center',
+        alignItems: 'Center',
         height: '100vh'
       }}
     >
-      <h1>Alpaca Punch is a new coffee thing</h1>
+      <h1>{getAbout()}</h1>
     </div>
 
   );

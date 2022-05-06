@@ -3,6 +3,10 @@ import './pageCSS/product.css';
 // import productTest from "./productTest.json";
 import products from "../DBfiles/jsonFiles/Products.json";
 //import {cart, products} from '../components/cart/Cart'
+//import { payable } from '../components/Navbar/ZilAssets/zilFunctions';
+
+
+import testBlockchain from '../components/Navbar/ZilAssets/PayableZil';
 
 
 //If we can remove the CSS then do! 
@@ -70,7 +74,7 @@ export default function GetProducts()
                             <p>Price: {products.price}</p>
                             <button value={[products.prodName,products.price]} value2={products.price} className='button_add' key={products.productID}  onClick={addItemToCart}>Add</button >
                             <p></p>
-                            <button value={products.price}>But now</button>
+                            <button value={products.price} >Buy now</button>
                         </div>
                         
 
